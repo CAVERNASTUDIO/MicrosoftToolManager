@@ -1,7 +1,7 @@
 # Microsoft Tool Manager
 Administrator user tool for Microsoft Windows **by Caverna Studio**.
 
-Administrator user interface:<br>Implemented programs batch of Windows default programing with system environment variables, commands CMD, Powershell and Online.
+Administrator user interface:<br>Implemented programs batch of Windows default programing with system environment variables, commands CMD, Powershell and scripts online.
 
 Precaution: Use in laboratory or control terms of the machine (for more information see Standard ECMA 334 "C# Language Specification").
 
