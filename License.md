@@ -2,8 +2,8 @@ The MIT License (MIT)
 
 Copyright (c) .NET Foundation and Contributors
 
-Contribution:
-Microsoft Tool Manager Copyright (c) 2026 Erik Alejandro García Aparicio.
+Contribution:<br>
+**Microsoft Tool Manager Copyright** (c) 2026 **Erik Alejandro García Aparicio.**
 
 All rights reserved.
 Permission is hereby granted, free of charge, to any person obtaining a copy
