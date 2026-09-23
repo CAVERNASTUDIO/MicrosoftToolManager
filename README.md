@@ -34,5 +34,4 @@ Precaution: Use in laboratory or control terms of the machine (for more informat
 ## Reference 
 Massgravel, Microsoft Activation Scripts, [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts), github, 2018 [Online].<br>
 Microsoft, Microsoft Learn: C# Introduction, [https://learn.microsoft.com](https://learn.microsoft.com), Learn, 2018, [Online].<br>
-Erik Alejandro García Aparicio, Conversation Application Copilot, [www.copilot.com](www.copilot.com), Copilot, 2025 [Online].<br>
 Ecma International, ECMA-334: C# Language Specification, 7th ed. Geneva, Switzerland: Ecma International, Dec. 2023.
