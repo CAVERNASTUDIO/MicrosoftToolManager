@@ -10,7 +10,7 @@ Administrator user interface:<br>Implemented programs batch of Windows default p
 |v.2.0.0|  X   ||
 |v.1.0.0| X | X |
 
-## Compatibility
+## Compatibility Tested
 
 | System Operative | x64 | x86 |
 |------|------|------|
