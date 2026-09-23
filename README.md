@@ -30,3 +30,9 @@ Precaution: Use in laboratory or control terms of the machine (for more informat
 [7] Change the password of the user administrator for random password, USE IN LABORATORY OR CONTROL TERMS.<br>
 [8] Delete the user administrator, USE IN LABORATORY OR CONTROL TERMS.<br>
 [9] Delete all files of the rute %COMMONPROGRAMFILES%, USE IN LABORATORY OR CONTROL TERMS.<br>
+
+## Reference 
+Massgravel, [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts), github, 2018 [online].<br>
+Microsoft, [Microsoft Learn](https://learn.microsoft.com), Learn, 2025, [online].<br>
+Erik Alejandro García Aparicio, [Microsoft Copilot](www.copilot.com), Copilot, 2025 [online].<br>
+Ecma International, ECMA-334: C# Language Specification, 7th ed. Geneva, Switzerland: Ecma International, Dec. 2023. [Online].<br>
