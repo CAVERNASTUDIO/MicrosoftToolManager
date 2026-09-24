@@ -239,19 +239,19 @@ int l =int.Parse(id_s[ids.Length-1, 2]);
 int m =int.Parse(id_s[ids.Length-1, 3]);
 int n =int.Parse(id_s[ids.Length-1, 4]);
 
-if (int.Parse(id_s[ids.Length-1, 4]) < 91){
+if (n < 91){
     n=n+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
+else if (m < 91){
     m=m+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
+else if (l < 91){
     l=l+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
+else if (k < 91){
     k=k+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
+else if (g < 91){
     g=g+1;
 }
 
