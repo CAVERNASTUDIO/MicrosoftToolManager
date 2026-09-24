@@ -239,35 +239,43 @@ int l =int.Parse(id_s[ids.Length-1, 2]);
 int m =int.Parse(id_s[ids.Length-1, 3]);
 int n =int.Parse(id_s[ids.Length-1, 4]);
 
-if (n < 91){
+if (n < 92){
     n=n+1;
 }
-else if (m < 91){
+
+if (m < 92&&n>90){
     m=m+1;
 }
-else if (l < 91){
+
+if (l < 92&&m>90){
     l=l+1;
 }
-else if (k < 91){
+
+if (k < 92&&l>90){
     k=k+1;
 }
-else if (g < 91){
+
+if (g < 92&&k>90){
     g=g+1;
 }
 
 if(n > 90){
     n=65;
 }
-else if(m > 90){
+
+if(m > 90){
     m=65;
 }
-else if(l > 90){
+
+if(l > 90){
     l=65;
 }
-else if(k > 90){
+
+if(k > 90){
     k=65;
 }
-else if(g > 90){
+
+if(g > 90){
     g=65;
 }
    
