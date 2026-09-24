@@ -239,36 +239,36 @@ int l =int.Parse(id_s[ids.Length-1, 2]);
 int m =int.Parse(id_s[ids.Length-1, 3]);
 int n =int.Parse(id_s[ids.Length-1, 4]);
 
-if(int.Parse(id_s[ids.Length-1, 0]) > 90){
-    id_s[ids.Length-1,0]="65";
-}
-else if(int.Parse(id_s[ids.Length-1, 1]) > 90){
-    id_s[ids.Length-1,0]="65";
-}
-else if(int.Parse(id_s[ids.Length-1, 2]) > 90){
-    id_s[ids.Length-1,0]="65";
-}
-else if(int.Parse(id_s[ids.Length-1, 3]) > 90){
-    id_s[ids.Length-1,0]="65";
-}
-else if(int.Parse(id_s[ids.Length-1, 4]) > 90){
-    id_s[ids.Length-1,0]="65";
-}
-
-if (int.Parse(id_s[ids.Length-1, 4]) < 89){
+if (int.Parse(id_s[ids.Length-1, 4]) < 91){
     n=n+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 89){
+else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
     m=m+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 89){
+else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
     l=l+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 89){
+else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
     k=k+1;
 }
-else if (int.Parse(id_s[ids.Length-1, 3]) < 89){
+else if (int.Parse(id_s[ids.Length-1, 3]) < 91){
     g=g+1;
+}
+
+if(n > 90){
+    n=65;
+}
+else if(m > 90){
+    m=65;
+}
+else if(l > 90){
+    l=65;
+}
+else if(k > 90){
+    k=65;
+}
+else if(g > 90){
+    g=65;
 }
    
 id = $"{(char)g}{(char)k}{(char)l}{(char)m}{(char)n}"; 
