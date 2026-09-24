@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using CavernaStudio.Licenses;
 
 mainWTM();
@@ -214,86 +214,88 @@ void exeProgram(string p_program){
 
 string keysOriginals()
 {
-
     string keysOriginals = @"./KEYSORIGINALS";
-bool keyOriginals = File.Exists(keysOriginals);
-
-if (keyOriginals == false){
-    File.AppendAllText(keysOriginals,"65,65,65,65,64\n");
-}
-
-string[] ids = File.ReadAllLines(keysOriginals);
-string id="";
-string[,] id_s = new string[ids.Length,ids[0].Split(',').Length];
-
-for(int j=0;j<ids.Length;j++){
-    string[] valores = ids[j].Split(',');
+    bool keyOriginals = File.Exists(keysOriginals);
     
-    for (int i = 0; i < ids[0].Split(',').Length; i++){
-        id_s[j,i]=valores[i];
+    if (keyOriginals == false){
+        File.AppendAllText(keysOriginals,"65,65,65,65,64\n");
     }
-}
-int g =int.Parse(id_s[ids.Length-1, 0]);
-int k =int.Parse(id_s[ids.Length-1, 1]);
-int l =int.Parse(id_s[ids.Length-1, 2]);
-int m =int.Parse(id_s[ids.Length-1, 3]);
-int n =int.Parse(id_s[ids.Length-1, 4]);
-
-if (n < 92){
-    n=n+1;
-}
-
-if (m < 92&&n>90){
-    m=m+1;
-}
-
-if (l < 92&&m>90){
-    l=l+1;
-}
-
-if (k < 92&&l>90){
-    k=k+1;
-}
-
-if (g < 92&&k>90){
-    g=g+1;
-}
-
-if(n > 90){
-    n=65;
-}
-
-if(m > 90){
-    m=65;
-}
-
-if(l > 90){
-    l=65;
-}
-
-if(k > 90){
-    k=65;
-}
-
-if(g > 90){
-    g=65;
-}
-   
-id = $"{(char)g}{(char)k}{(char)l}{(char)m}{(char)n}"; 
-string id_doc =$"{g},{k},{l},{m},{n}\n";
-File.AppendAllText(keysOriginals,id_doc);
-
-string keyOriginal = $"<?xml version=\"1.0\" encoding=\"utf-8\"?><OriginalInstall[you reference]><genuineAuthorization xmlns=\"https://support.microsoft.com/es-es/windows/deployment/install-upgrade/create-installation-media-for-windows\"><version>1.0</version>Original[you reference]=[your id reference]-{id}  CONSUMER STRATEGY -> 021 966 09 00 ECMA/GA/2001/123</OriginalInstallCavermaStudio><a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Licencia de Creative Commons\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /></a><br /><span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">[name install user]</span> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://www.microsoft.com/\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Microsoft</a> is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Reconocimiento 4.0 Internacional License</a>.<br />Creado a partir de la obra en <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://www.microsoft.com/\" rel=\"dct:source\">https://www.microsoft.com/</a>.<br />Puede hallar permisos más allá de los concedidos con esta licencia en <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://www.microsoft.com/\" rel=\"cc:morePermissions\">https://www.microsoft.com/</a></genuineAuthorization>";
-string homeDrive = Environment.GetEnvironmentVariable("HOMEDRIVE");
-File.AppendAllText($@"{homeDrive}\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\OriginalCavernaStudio.xml",keyOriginal);
-return keyOriginal; 
+    
+    string[] ids = File.ReadAllLines(keysOriginals);
+    string id="";
+    string[,] id_s = new string[ids.Length,ids[0].Split(',').Length];
+    
+    for(int j=0;j<ids.Length;j++){
+        string[] valores = ids[j].Split(',');
+        
+        for (int i = 0; i < ids[0].Split(',').Length; i++){
+            id_s[j,i]=valores[i];
+        }
+    }
+    
+    int g =int.Parse(id_s[ids.Length-1, 0]);
+    int k =int.Parse(id_s[ids.Length-1, 1]);
+    int l =int.Parse(id_s[ids.Length-1, 2]);
+    int m =int.Parse(id_s[ids.Length-1, 3]);
+    int n =int.Parse(id_s[ids.Length-1, 4]);
+    
+    if (n < 92){
+        n=n+1;
+    }
+    
+    if (m < 92&&n>90){
+        m=m+1;
+    }
+    
+    if (l < 92&&m>90){
+        l=l+1;
+    }
+    
+    if (k < 92&&l>90){
+        k=k+1;
+    }
+    
+    if (g < 92&&k>90){
+        g=g+1;
+    }
+    
+    if(n > 90){
+        n=65;
+    }
+    
+    if(m > 90){
+        m=65;
+    }
+    
+    if(l > 90){
+        l=65;
+    }
+    
+    if(k > 90){
+        k=65;
+    }
+    
+    if(g > 90){
+        g=65;
+    }
+    
+    id = $"{(char)g}{(char)k}{(char)l}{(char)m}{(char)n}"; 
+    string id_doc =$"{g},{k},{l},{m},{n}\n";
+    
+    File.AppendAllText(keysOriginals,id_doc);
+    
+    string keyOriginal = $"<?xml version=\"1.0\" encoding=\"utf-8\"?><OriginalInstall[you reference]><genuineAuthorization xmlns=\"https://support.microsoft.com/es-es/windows/deployment/install-upgrade/create-installation-media-for-windows\"><version>1.0</version>Original[you reference]= [your id reference]-{id}  CONSUMER STRATEGY - 021 966 09 00 ECMA/GA/2001/123</OriginalInstall[you reference]><a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Licencia de Creative Commons\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /></a><br /><span xmlns:dct=\"http://purl.org/dc/terms/\" property=\"dct:title\">[you name]</span> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://www.microsoft.com/\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Microsoft</a> is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Reconocimiento 4.0 Internacional License</a>.<br />Creado a partir de la obra en <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://www.microsoft.com/\" rel=\"dct:source\">https://www.microsoft.com/</a>.<br />Puede hallar permisos más allá de los concedidos con esta licencia en <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://www.microsoft.com/\" rel=\"cc:morePermissions\">https://www.microsoft.com/</a></genuineAuthorization>";
+    string homeDrive = Environment.GetEnvironmentVariable("HOMEDRIVE");
+    
+    File.AppendAllText($@"{homeDrive}\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\Original[you reference].xml",keyOriginal);
+    return keyOriginal; 
 }
 
 void controlActivationWindows()
 {
     Console.Clear();
     string homeDrive = Environment.GetEnvironmentVariable("HOMEDRIVE");
-    string ruta = $@"{homeDrive}\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\Original[you version or company].xml";
+    string ruta = $@"{homeDrive}\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\Original[you reference].xml";
     bool existencia = File.Exists(ruta);
 
     if (existencia == true)
