@@ -1,10 +1,10 @@
 # The MIT License (MIT)
 
-Copyright © **.NET Foundation and Contributors**
+Copyright © **.NET Foundation and Contributors** <br>
 
 Contribution:
-**Microsoft Tool Manager Copyright** © 2026 **Erik Alejandro García Aparicio.**
-_This document includes material copied from or derived from massgravel, windows CLI. Copyright © Ecma International._
+**Microsoft Tool Manager Copyright** © 2026 **Erik Alejandro García Aparicio.** <br>
+_This document includes material copied from or derived from massgravel and windows CLI. Copyright © Ecma International._
 
 All rights reserved.
 
@@ -33,7 +33,7 @@ SOFTWARE.
 By obtaining and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions. Permission under Ecma’s copyright to copy, modify, prepare derivative works of, and distribute this work, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the work or portions thereof, including modifications:
 (i) The full text of this COPYRIGHT NOTICE AND COPYRIGHT LICENSE in a location viewable to users of the redistributed or derivative work.
 (ii) Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, the Ecma alternative copyright notice should be included.
-(iii) Notice of any changes or modifications, through a copyright statement on the document such as "This document includes material copied from or derived from [copied document or material]. Copyright © Ecma International."
+(iii) Notice of any changes or modifications, through a copyright statement on the document such as "This document includes material copied from or derived from [document or material copied]. Copyright © Ecma International."
 
 Disclaimers
 
