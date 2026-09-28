@@ -26,7 +26,7 @@ Precaution: Use in laboratory or control terms of the machine (for more informat
 [3] Report of system that security record.<br>
 [4] Optimizer the PC.<br>
 [5] Optimizer the ram.<br>
-[6] Activation offline of windows 10/11 (pro, home, home single language, education from [Microsoft Activation Scripts](https://massgrave.dev/)) with a personal ID/Key reference in a personal data base (necessary configuration the document and variables for xml). **only v.2.0.0**<br>
+[6] Activation offline of windows 10/11 (pro, home, home single language and education from [Microsoft Activation Scripts](https://massgrave.dev/)) with a personal ID/Key reference in a personal data base (necessary configuration the document and variables for xml preconfigure document on Program.cs code). **only v.2.0.0**<br>
 [7] Change the password of the user administrator for random password, USE IN LABORATORY OR CONTROL TERMS.<br>
 [8] Delete the user administrator, USE IN LABORATORY OR CONTROL TERMS.<br>
 [9] Delete all files of the path %COMMONPROGRAMFILES%, USE IN LABORATORY OR CONTROL TERMS.<br>
