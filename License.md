@@ -4,7 +4,7 @@ Copyright © **.NET Foundation and Contributors** <br>
 
 Contribution:
 **Microsoft Tool Manager Copyright** © 2026 **Erik Alejandro García Aparicio.** <br>
-_This document includes material copied from or derived from massgravel and windows CLI. Copyright © Ecma International._
+_This document includes material copied from patent statament and code of conduct © Ecma International._
 
 All rights reserved.
 
